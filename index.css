@@ -1,0 +1,139 @@
+*{
+  /* font-size: 16px; */
+  margin-top: 20px;
+  font-family: 'Karla', sans-serif;
+  text-decoration: none;
+}
+.main-container {
+  display: grid;
+  grid-auto-columns: 400px;
+  grid-auto-rows: 300px;
+  margin: auto;
+  padding: auto;
+  width: fit-content;
+  /* background-color: hsl(204, 43%, 93%); */
+  box-shadow: grey 1px 0px 4px 1px;
+  border-radius: 5px;
+}
+
+.first-div {
+  background-color:white;
+  grid-column: span 2;
+  /* grid-row: span 1; */
+  justify-content: left;
+  width: fit-content;
+  border-radius: 5px 5px 5px 5px;
+}
+.second-div {
+  background-color:hsl(179, 62%, 43%);
+  grid-column: span 1;
+  /* height: 250px; */
+  border-radius: 0px 0px 0px 5px;
+  justify-items: center;
+  line-height: 0.5;
+}
+.third-div {
+  background-color:hsla(179, 72%, 42%, 0.863);
+  grid-column: span 1;
+  /* height: 250px; */
+  border-radius: 0px 0px 5px 0px;
+}
+
+.btn{
+  color: white;
+  text-decoration: none;
+  background-color: hsl(71, 73%, 54%);
+  text-decoration: none;
+  border: 0px;
+  border-radius: 8px;
+  height: 60px;
+  width: 300px;
+  font-size: 200;
+  font-weight: bold;
+  align-items: center;
+  margin-left: 40px;
+  box-shadow: rgba(0, 0, 0, 0.199) 2px 3px 3px 1px;
+}
+
+.btn:hover{
+  background-color: white;
+  color: hsla(179, 62%, 43%, 0.678);
+}
+
+.second-div h2{
+  color: white;
+  margin-left: 40px;
+  margin-top: 40px;
+  justify-content: left;
+  line-height: 1.5;
+}
+
+.second-div p{
+  color: white;
+  margin-left: 40px;
+  justify-content: left;
+  font-size: 20px;
+  font-weight: 500;
+}
+.second-div h1{
+  color: white;
+  margin-left: 40px;
+  justify-content: left;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.second-div span{
+  font-size: medium;
+  font-weight: 100;
+}
+
+.third-div h2{
+  color: white;
+  margin-left: 40px;
+  margin-top: 40px;
+  justify-content: left;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+
+.third-div p{
+  color: white;
+  margin-left: 40px;
+  justify-content: left;
+  font-size: 450;
+  line-height: 1.5;
+}
+
+.first-div h2{
+  color:hsl(179, 62%, 43%);
+  margin: 40px;
+  justify-content: left;
+  line-height: 1;
+  font-size: 1000;
+  font-weight: bolder;
+  font-family: 'Karla', sans-serif;
+}
+
+.first-div p{
+  color:hsla(206, 15%, 28%, 0.61);
+  margin-left: 40px;
+  justify-content: left;
+  font-size: 15pt;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.first-div h4{
+  color: hsl(71, 73%, 54%);
+  margin-bottom: 40px;
+  margin-left: 40px;
+  justify-content: left;
+  font-size: 20pt;
+  font-weight: bolder;
+  line-height: 0.5;
+}
+
+footer{
+  padding-left: 80vh;
+}
+
